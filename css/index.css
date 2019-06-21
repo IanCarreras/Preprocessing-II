@@ -188,6 +188,11 @@ img {
 .banner nav a {
   padding: 2rem;
 }
+@media (max-width: 706px) {
+  .banner {
+    flex-direction: column;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
